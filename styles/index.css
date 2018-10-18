@@ -1,0 +1,75 @@
+/**
+ * index.css
+ */
+
+// 设定元素的 width 时，把元素的边界 border 和空白填充量 padding 考虑在内
+* {
+	-webkit-box-sizing:border-box;
+		 -moz-box-sizing:border-box;
+					box-sizing:border-box;
+}
+
+html,body {
+  margin:0 0 0 0;
+  background-color:gray;
+}
+
+#hyper_whiteboard {
+	display:block;
+	margin:0 0 0 0;
+	border:1px dotted rgba(0,0,0,0);
+	width:99vw;
+  height:99vh;
+}
+
+#global_view_area {
+	margin:2vh auto 5vh auto;
+	width:40vw;
+	height:1vh;
+	display:block;
+	border-radius:5px;
+	background-color:rgba(255,255,85,0.7);
+}
+
+#focus_tracking_area {
+	margin:5vh auto 2vh auto;
+	width:80vw;
+	height:70vh;
+	display:block;
+	border-radius:5px;
+	background-color:rgba(255,255,85,0.5);
+}
+
+#backtracking_links {
+	margin:2vh 1.5vw 2vh 1.5vw;
+	width:12vw;
+	height:66vh;
+	float:left;
+	background-color:rgba(255,55,85,0.2);
+}
+
+#current_focus_card {
+	margin:3vh 0 3vh 0;
+	width:50vw;
+	height:64vh;
+	float:left;
+	border-radius:5px;
+	background-color:rgba(255,255,85,0.4);
+}
+
+#heuristic_links {
+	margin:2vh 1.5vw 2vh 1.5vw;
+	width:12vw;
+	height:66vh;
+	float:left;
+	background-color:rgba(255,55,85,0.2);
+}
+
+#ref_cards_area {
+	margin:1vh auto 2vh auto;
+	width:75vw;
+	height:16vh;
+	display:block;
+	background-color:rgba(155,255,205,0.2);
+}
+
